@@ -197,6 +197,7 @@ const meta = {
   component: AppStory,
   // autodocs is intentionally NOT set here; the custom MDX page takes over.
   parameters: { layout: "fullscreen" },
+  tags:       ["autodocs"],
   argTypes: {
     modelId: {
       name:        "Dataset",
