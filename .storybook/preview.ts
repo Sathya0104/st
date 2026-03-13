@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import './storybook.css'
+=======
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149
 import type { Preview } from '@storybook/react-vite'
 
 const preview: Preview = {
   parameters: {
+<<<<<<< HEAD
     options: {
       storySort: {
         method: 'alphabetical',
@@ -10,6 +14,8 @@ const preview: Preview = {
       },
     },
 
+=======
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149
     controls: {
       matchers: {
        color: /(background|color)$/i,
@@ -26,4 +32,8 @@ const preview: Preview = {
   },
 };
 
+<<<<<<< HEAD
 export default preview;
+=======
+export default preview;
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149

@@ -2,8 +2,12 @@
  * Network Graph example application
  *
  * @author
+<<<<<<< HEAD
  * Enrico Tedeschini,
  * Sathyanarayana Venugopal
+=======
+ * Enrico Tedeschini
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149
  */
 
 import React, {useEffect, useMemo, useRef, useState} from "react"

@@ -4,8 +4,12 @@
  * escaping XML, downloading text files, and computing radial layouts.
  *
  * @author
+<<<<<<< HEAD
  * Enrico Tedeschini,
  * Sathyanarayana Venugopal
+=======
+ * Enrico Tedeschini
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149
  */
 
 import React                                                from "react";

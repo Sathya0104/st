@@ -1,0 +1,28 @@
+[14:44:48.226] [INFO] storybook v10.2.17
+[14:44:50.776] [DEBUG] Getting package.json info for D:/netscouts/d3js/d3js-demo/package.json...
+[14:44:53.588] [DEBUG] Serving static files from [36mnode_modules/@chromatic-com/storybook/assets[39m at [36m/addon-visual-tests-assets[39m
+[14:44:53.589] [INFO] Starting...
+[14:44:54.467] [DEBUG] Starting preview..
+[14:44:55.003] [WARN] 🚨 Unable to index ./src/App.mdx:
+  Error: Could not parse import/exports with acorn
+    at file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:5840:24
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+    at async _StoryIndexGenerator.updateExtracted (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:5823:5)
+    at async _StoryIndexGenerator.ensureExtracted (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:5860:8)
+    at async _StoryIndexGenerator.initialize (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:5819:5)
+    at async file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/presets/common-preset.js:1842:10
+[14:44:55.008] [ERROR] Failed to build the preview
+[14:44:55.009] [ERROR] Error: Unable to index ./src/App.mdx
+    at _StoryIndexGenerator.getIndexAndStats (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:6087:15)
+    at async _StoryIndexGenerator.getIndex (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:6076:13)
+    at async getOptimizeDeps (file:///D:/netscouts/d3js/d3js-demo/node_modules/@storybook/builder-vite/dist/index.js:1857:15)
+    at async createViteServer (file:///D:/netscouts/d3js/d3js-demo/node_modules/@storybook/builder-vite/dist/index.js:1884:19)
+    at async Module.start (file:///D:/netscouts/d3js/d3js-demo/node_modules/@storybook/builder-vite/dist/index.js:1912:17)
+    at async storybookDevServer (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:7295:83)
+    at async buildOrThrow (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:4506:12)
+    at async buildDevStandalone (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/core-server/index.js:7710:41)
+    at async withTelemetry (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/_node-chunks/chunk-FTTIUZEI.js:218:12)
+    at async dev (file:///D:/netscouts/d3js/d3js-demo/node_modules/storybook/dist/bin/core.js:2734:3)
+[14:44:55.012] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.

@@ -82,7 +82,10 @@ export type NetworkGraphProps = {
   centerKey: string
   config?: NetworkGraphConfig
   minZoom?: number
+<<<<<<< HEAD
   /** Maximum zoom level as a percentage (e.g., 10 for 1000%). */
+=======
+>>>>>>> 61f249b0479bc50c1d78d64bfae9e50f3e38c149
   maxZoom?: number
   highlightedNodeKey?: string;
   /** If true, disables the interactivity, the user can't move any node. */
